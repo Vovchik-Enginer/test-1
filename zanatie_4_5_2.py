@@ -15,4 +15,14 @@ def motivation_quote():
 
    print('Цитата дня:', random.choice(quotes))   
 
-motivation_quote()   
+def coin_flip():
+   coin = random.randint(0, 1)
+   if coin == 0:
+      print('Выпала РЕШКА')
+   else:
+      print('Выпал ОРЕЛ')      
+
+
+coin_flip()
+
+
