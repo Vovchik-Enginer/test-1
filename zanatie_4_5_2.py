@@ -22,7 +22,12 @@ def coin_flip():
    else:
       print('Выпал ОРЕЛ')      
 
-
-coin_flip()
+def gess_number():
+   secret = random.randint(1, 10)
+   print('Угадай число от 1 до 10')
+   if gess_number == secret:
+      print('Круто! Ты угадал.')
+   else:      
+      print(f'Не угадал! Было число {secret}')
 
 
